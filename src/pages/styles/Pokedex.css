@@ -77,6 +77,12 @@
   background-color: #d90429;
   color: white;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.pokedex__listPage li:hover {
+  transform: scale(1.1);
+  filter: brightness(1.3);
 }
 
 .pokedex__listPage li.actualPage {

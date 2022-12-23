@@ -11,7 +11,7 @@
 }
 
 .pokeCard:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 .pokeCard__header {
@@ -34,15 +34,17 @@
   padding-top: 15px;
   text-transform: capitalize;
   margin-bottom: 0;
+  color: #2b2d42;
 }
 
 .pokeCard__types {
   text-transform: capitalize;
   margin: 0;
+  color: #2b2d42;
 }
 
 .pokeCard__types-title {
-  color: #9F9F9F;
+  color: #2b2d42;
   font-size: 15px;
   margin-top: 0;
 }
@@ -61,7 +63,7 @@
 
 .pokeCard__stat-name {
   margin: 0;
-  color: #9F9F9F;
+  color: #2b2d42;
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -69,6 +71,7 @@
 .pokeCard__stat-value {
   margin: 0;
   font-weight: 600;
+  color: #2b2d42;  
 }
 
 .loader {
