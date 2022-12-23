@@ -1,0 +1,55 @@
+.header {
+  height: 120px;
+  width: 100%;
+  background-color: #d90429;
+  position: relative;
+}
+
+.header__img {
+  max-width: 320px;
+  margin-left: 20px;
+}
+
+.header__black {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+}
+
+.header__circle {
+  position: absolute;
+  width: 70px;  
+  aspect-ratio: 1;
+  background-color: #edf2f4;
+  border: 10px solid black;
+  border-radius: 50%;
+  bottom: 0px;
+  right: 10px;
+  transform: translate(-50%);
+}
+
+.header__circle-inte {
+  position: absolute;
+  width: 35px;  
+  aspect-ratio: 1;
+  border: 6px solid black;
+  background-color: #8d99ae;
+  border-radius: 50%;
+  bottom: 8px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.header__logout {
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 200ms color ease;
+}
+
+.header__logout:hover {
+  color: #ef233c;
+}
